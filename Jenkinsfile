@@ -5,7 +5,7 @@ pipeline {
              steps{
                  checkout scm https://github.com/PPAneesh/jenkin-pipeline
              }
-                }
+        }
 
         stage ('Compiling code') {
             steps{
@@ -22,6 +22,6 @@ pipeline {
 post {
     always {
         echo ' I will always say Hello!!!!!'
+        }
     }
-}
 }
