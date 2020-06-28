@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage ('Connect to git'){
              steps{
-                 checkout scm https://github.com/PPAneesh/jenkin-pipeline
+                 checkout scm https://github.com/PPAneesh/jenkin-pipeline.git
              }
         }
 
